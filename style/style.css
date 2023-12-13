@@ -257,6 +257,11 @@ body{
     color: rgb(219,255,151);
 }
 
+.section_list_headerbox img{
+    height: 115px;
+    border-radius: 100%;
+}
+
 .section_list_content{
     display: flex;
     flex-direction: column;
