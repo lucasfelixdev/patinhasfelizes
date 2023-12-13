@@ -1,0 +1,129 @@
+@media (max-width: 1090px){
+    .container_header{height: 120vh;}
+    .nav_estilo{
+        width: 95%;
+        display: block;
+    }
+    .nav_logo_estilo img{
+        display: none;
+        margin: none;
+    }
+
+    .colum_infos ul {
+        line-height: 30px;
+        padding-inline-start: 0;
+    }
+
+    .section2_title h2 {font-size: 3em;}
+
+    .container-footer{ width: 85%;}
+
+}
+
+@media (max-width: 642px){
+
+    html{
+        overflow-x: hidden;
+    }
+    .container_header{height: 95vh;}
+    .header_title h1{
+        font-size: 45px;
+        line-height: 46px;
+    }
+    .container_header{
+        background-size: 175vh;
+    }
+    
+
+    .quemSomos{flex-direction: column;}
+
+    .section_text{ width: 80%; font-size: 12px; text-align: center;}
+
+    .section_img img{margin: 0; margin-bottom: 30px;}
+
+    .nav_ul_adjust{display: none;}
+
+    .container-footer{flex-direction: column; margin: auto;}
+    
+    /* MENU BURGER */
+    .one,.two,.three{
+        background-color: #fff; 
+        height: 4px;
+        width: 100%;
+        margin: 8px;
+
+        transition-duration: 0.3s;
+     }
+     .menu-toggle{
+        margin-top: 1%;
+        display: block;
+        width: 40px;  
+        height: 30px; 
+     }
+
+    .nav_ul_estilo {
+        padding: 0;
+        transition: 0.7s ease-in;
+    }
+
+    /* Full Screen */
+    .nav_ul_estilo.on .menu-toggle {
+        position: absolute;
+        top: 20px;
+    }
+    
+    .nav_ul_estilo.on {
+        border-radius: 0;
+        position: absolute;
+        top:0;
+        left:0;
+        
+        width: 100vw;
+        height: 100vh;
+
+        background-color: rgb(15, 47, 46);
+        
+        z-index: 10;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav_ul_estilo.on .nav_ul_adjust {
+        display: block;
+    }
+
+    .nav_ul_estilo.on .menu-toggle .one {
+        transform: rotate(43deg) translate(5px, 7px);
+    }
+
+    .nav_ul_estilo.on .menu-toggle .two {
+        opacity: 0;
+    }
+
+    .nav_ul_estilo.on .menu-toggle .three {
+        transform: rotate(-45deg) translate(10px, -11px);
+    }
+
+    .nav_ul_estilo.on .nav_ul_adjust {
+        position: static;
+        background-color: transparent;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    footer{
+        height: 100%;
+        padding-bottom: 50px;
+        justify-content: normal;
+    }
+
+    .footer_img_ong{margin-top:120px;font-size: 15px;}
+    .footer_img_ong p { width: 300px; margin-bottom: 50px;}
+    .footer_img_ong img {height: 78px;}
+    .colum_infos ul, li, p{text-align: center;}
+    .container_section3_text{width: 80%;}
+}
