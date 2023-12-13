@@ -15,7 +15,7 @@ body{
 }
 
 .container_header{
-    height: 110vh;
+    height: 800px;
     background-color: rgb(122,255,195);
     background-image: url(../images/catAndDogHeader.png);
     background-repeat: no-repeat;
@@ -114,10 +114,11 @@ body{
 /* IMG */
 
 .header_title{
-    height: 60vh;
+    height: 40vh;
     display: flex;
     line-height: 55px;
     justify-content: center;
+    align-items: center;
     width: 85%;
     margin: auto;
 }
@@ -132,9 +133,6 @@ body{
 
 .header_img {
     background-image: url(../images/catAndDogHeader.png);
-    /* overflow: hidden;
-    display: flex;
-    justify-content: center; */
 }
 
 .header_img img{
