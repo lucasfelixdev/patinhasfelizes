@@ -114,7 +114,7 @@ body{
 /* IMG */
 
 .header_title{
-    height: 40vh;
+    height: 20em;
     display: flex;
     line-height: 55px;
     justify-content: center;

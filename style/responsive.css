@@ -17,16 +17,19 @@
 
 }
 
+
+
+
 @media (max-width: 1090px){
     
     .header_title{
-        height: 30vh;
+        height: 30em;
         justify-content: center;
         align-items: center;
     }
     .header_title h1{
-        line-height: 40px;
-        font-size: 45px;
+        line-height: 50px;
+        font-size: max(60px, 5vw)
     }
 
     .container_header{
@@ -52,6 +55,9 @@
     .container-footer{ width: 85%;}
 
 }
+
+
+
 
 @media (max-width: 642px){
 
@@ -168,12 +174,3 @@
     .container_section3_text{width: 80%;}
 }
 
-/* @media (max-height: 1090px){
-    .header_title{
-        height: 50vh;
-    }
-    .header_title h1{
-        line-height: 60px;
-        font-size: 65px;
-    }
-} */
