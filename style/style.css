@@ -272,6 +272,7 @@ body{
     background-color: rgb(219,255,151);
     color: rgb(15,47,46);
     border-radius: 0 30px 32px 32px;
+    padding-bottom: 15px;
 }
 
 .section_list_content_check{
