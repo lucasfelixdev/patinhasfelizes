@@ -7,7 +7,7 @@
     
 
 
-[Clique para acessar o notion](www.notion.so/Planejamento-de-task-bb3b32de53784c77b06a356af2262654?pvs=4)
+[Clique para acessar o notion](https://mewing-casquette-1d6.notion.site/Planejamento-de-task-bb3b32de53784c77b06a356af2262654)
 </table>
 
 <table>
