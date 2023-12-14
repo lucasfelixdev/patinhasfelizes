@@ -35,7 +35,10 @@ Este projeto representou um desafio significativo, pois além de conceber e dese
 ```
 Almejo que o resultado seja satisfatório.
 
-Procurei otimizar meu desempenho dentro do prazo estabelecido, considerando meu atual período de avaliações com diversos projetos acadêmicos, o que ocasionou atrasos nos compromissos letivos (conforme circunstâncias acadêmicas).
+Procurei otimizar meu desempenho dentro do prazo estabelecido, considerando meu atual
+ período de avaliações com diversos projetos acadêmicos, o que ocasionou atrasos nos
+compromissos letivos (conforme circunstâncias acadêmicas).
 
- Abordei a tarefa com o objetivo de conciliar práticas exemplares com um design apelativo, concentrando-me na experiência do usuário e na interface.
+ Abordei a tarefa com o objetivo de conciliar práticas exemplares com um design
+apelativo, concentrando-me na experiência do usuário e na interface.
 
